@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [image2]: ./writeup_images/training_image.png "Original Image"
 [image3]: ./writeup_images/training_image_gray.png "Preprocessed Image"
 [image4]: ./images/4-speed_limit_70.png "Speed Limit: 70 Sign"
-[image5]: ./images/9-no_passing.png) "No Passing Sign"
+[image5]: ./images/9-no_passing.png "No Passing Sign"
 [image6]: ./images/12-priority_road.png "Priority Road Sign"
 [image7]: ./images/22-bumpy_road.png "Bumpy Road Sign"
 [image8]: ./images/27-pedestrians.png "Pedestrians Sign"
