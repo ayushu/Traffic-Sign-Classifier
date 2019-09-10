@@ -1,10 +1,8 @@
-# **Traffic Sign Recognition**
+# **Traffic Sign Classifier**
 
-## Writeup
+This project was done as part of the [Udacity Self-Driving Car Nanodegree](http://www.udacity.com/drive)
 
 ---
-
-**Build a Traffic Sign Recognition Project**
 
 The goals / steps of this project are the following:
 * Load the data set from [INI](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
@@ -24,7 +22,7 @@ The goals / steps of this project are the following:
 [image5]: ./images/9-no_passing.png "No Passing Sign"
 [image6]: ./images/12-priority_road.png "Priority Road Sign"
 [image7]: ./images/22-bumpy_road.png "Bumpy Road Sign"
-[image8]: ./images/27-pedestrians.png "Pedestrians Sign" 
+[image8]: ./images/27-pedestrians.png "Pedestrians Sign"
 
 ---
 
