@@ -1,4 +1,4 @@
-# **Traffic Sign Recognition** 
+# **Traffic Sign Recognition**
 
 ## Writeup
 
@@ -59,7 +59,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
-As a first step, to pre-process the data, I decided to converted the images to grayscale. The shapes of the traffic signs are more important than the color and hence the model will train better. Next, the data was normalized between 0.1 and 0.9, which prevents overfitting. 
+As a first step, to pre-process the data, I decided to converted the images to grayscale. The shapes of the traffic signs are more important than the color and hence the model will train better. Next, the data was normalized between 0.1 and 0.9, which prevents overfitting.
 
 I attempted to generate additional data as seen in the commented code in cell 7, but it resulted in less accurate results when testing with the images found on the internet.
 
@@ -76,9 +76,9 @@ And here is the augmented image:
 
 My final model consisted of the following layers:
 
-| Layer         		|     Description	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
+| Layer         		|     Description	        					|
+|:---------------------:|:---------------------------------------------:|
+| Input         		| 32x32x3 RGB image   							|
 | Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
@@ -95,12 +95,12 @@ My final model consisted of the following layers:
 | Softmax				|         										|
 |						|												|
 |						|												|
- 
+
 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an Adam Optimizer was used to try to minimize the loss. The learning rate was set to 0.001, Epochs to 50, and batch size of 128. There was two dropouts set to 0.50. The model was trained using TensorFlow and iterated over the Epochs, and the accuracy of which was measured. 
+To train the model, I used an Adam Optimizer was used to try to minimize the loss. The learning rate was set to 0.001, Epochs to 50, and batch size of 128. There was two dropouts set to 0.50. The model was trained using TensorFlow and iterated over the Epochs, and the accuracy of which was measured.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
@@ -115,7 +115,7 @@ If a well known architecture was chosen:
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
 
 The LeNet architecture was chosen for this project as it is well-known and well-understood architecture. It is well-suited for identifying visual patterns and hence was ideal to the traffic sign application. The final model's accuracy  of 0.999 for the training set, 0.966 for the validation set, and 0.954 for the test set, prove that the model works well for this application.
- 
+
 
 ### Test a Model on New Images
 
@@ -123,8 +123,8 @@ The LeNet architecture was chosen for this project as it is well-known and well-
 
 Here are five German traffic signs that I found on the web:
 
-![Speed Limit: 70][image4] ![No Passing][image5] ![Priority Road][image6] 
-![Bumpy Road][image7] ![Pedestrians][image8]
+![Speed Limit: 70][image4 | width=100] ![No Passing][image5 | width=100] ![Priority Road][image6 | width=100]
+![Bumpy Road][image7 | width=100] ![Pedestrians][image8 | width=100]
 
 The fourth image might be difficult to classify because the shape is similiar to some other traffic signs.
 
@@ -132,16 +132,16 @@ The fourth image might be difficult to classify because the shape is similiar to
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Speed Limit: 70      	| Speed Limit: 70								| 
+| Image			        |     Prediction	        					|
+|:---------------------:|:---------------------------------------------:|
+| Speed Limit: 70      	| Speed Limit: 70								|
 | No Passing   			| No Passing 									|
 | Priority Road			| Priority Road									|
 | Bumpy Road      		| Priority Road					 				|
 | Pedestrians			| Pedestrians  									|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. 
+The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -149,9 +149,9 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is nearly certain that this is a stop sign (probability of 0.999993801), and the image does contain a speed limit sign. The top five soft max probabilities were:
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| 0.999993801			| Speed Limit: 70								| 
+| Probability         	|     Prediction	        					|
+|:---------------------:|:---------------------------------------------:|
+| 0.999993801			| Speed Limit: 70								|
 | 1.000000000			| No Passing									|
 | 0.999984026			| Priority Road									|
 | 0.65799582   			| Priority Road					 				|
@@ -159,5 +159,3 @@ For the first image, the model is nearly certain that this is a stop sign (proba
 
 
 For the fourth image, the probability is notably lower than the others and is the only wrong predication.
-
-
