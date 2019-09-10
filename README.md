@@ -123,7 +123,7 @@ The LeNet architecture was chosen for this project as it is well-known and well-
 
 Here are five German traffic signs that I found on the web:
 
-![Speed Limit: 70][image4] ![](./images/9-no_passing.png | height = 100) ![Priority Road][image6]
+![Speed Limit: 70][image4] ![](./images/9-no_passing.png | width = 100) ![Priority Road][image6]
 ![Bumpy Road][image7] ![Pedestrians][image8]
 
 The fourth image might be difficult to classify because the shape is similiar to some other traffic signs.
