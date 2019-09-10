@@ -20,11 +20,11 @@ The goals / steps of this project are the following:
 [image1]: ./writeup_images/dataset_histogram.png "Dataset Visualization"
 [image2]: ./writeup_images/training_image.png "Original Image"
 [image3]: ./writeup_images/training_image_gray.png "Preprocessed Image"
-[image4]: ./images/4-speed_limit_70.png "Speed Limit: 70 Sign"
-[image5]: ./images/9-no_passing.png "No Passing Sign"
-[image6]: ./images/12-priority_road.png "Priority Road Sign"
-[image7]: ./images/22-bumpy_road.png "Bumpy Road Sign"
-[image8]: ./images/27-pedestrians.png "Pedestrians Sign"
+[image4]: ./images/4-speed_limit_70.png | width=100 "Speed Limit: 70 Sign"
+[image5]: ./images/9-no_passing.png | width=100 "No Passing Sign"
+[image6]: ./images/12-priority_road.png | width=100 "Priority Road Sign"
+[image7]: ./images/22-bumpy_road.png | width=100 "Bumpy Road Sign"
+[image8]: ./images/27-pedestrians.png | width=100 "Pedestrians Sign"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -123,8 +123,8 @@ The LeNet architecture was chosen for this project as it is well-known and well-
 
 Here are five German traffic signs that I found on the web:
 
-![Speed Limit: 70][image4 | width=100] ![No Passing][image5 | width=100] ![Priority Road][image6 | width=100]
-![Bumpy Road][image7 | width=100] ![Pedestrians][image8 | width=100]
+![Speed Limit: 70][image4] ![No Passing][image5] ![Priority Road][image6]
+![Bumpy Road][image7] ![Pedestrians][image8]
 
 The fourth image might be difficult to classify because the shape is similiar to some other traffic signs.
 
