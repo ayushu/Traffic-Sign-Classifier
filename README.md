@@ -20,11 +20,11 @@ The goals / steps of this project are the following:
 [image1]: ./writeup_images/dataset_histogram.png "Dataset Visualization"
 [image2]: ./writeup_images/training_image.png "Original Image"
 [image3]: ./writeup_images/training_image_gray.png "Preprocessed Image"
-[image4]: ./images/4-speed_limit_70.png | width=100 "Speed Limit: 70 Sign"
-[image5]: ./images/9-no_passing.png | width=100 "No Passing Sign"
-[image6]: ./images/12-priority_road.png | width=100 "Priority Road Sign"
-[image7]: ./images/22-bumpy_road.png | width=100 "Bumpy Road Sign"
-[image8]: ./images/27-pedestrians.png | width=100 "Pedestrians Sign"
+[image4]: ./images/4-speed_limit_70.png "Speed Limit: 70 Sign"
+[image5]: ./images/9-no_passing.png "No Passing Sign"
+[image6]: ./images/12-priority_road.png "Priority Road Sign"
+[image7]: ./images/22-bumpy_road.png "Bumpy Road Sign"
+[image8]: ./images/27-pedestrians.png "Pedestrians Sign"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
